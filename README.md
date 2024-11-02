@@ -40,8 +40,8 @@ RecurrenceHub API is an ASP.NET Core Web API built using .NET 8. This API manage
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/yourusername/chronoflow-api.git
-   cd chronoflow-api
+   git clone https://github.com/M7amd7amada/RecurrenceHub.git
+   cd RecurrenceHub
    ```
 
 2. **Install dependencies:**
