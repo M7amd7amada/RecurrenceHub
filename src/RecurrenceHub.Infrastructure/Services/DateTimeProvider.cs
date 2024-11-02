@@ -1,6 +1,6 @@
 using RecurrenceHub.Application.Common.Interfaces.Services;
 
-namespace RecurrenceHub.Infrastructure.Common.Services;
+namespace RecurrenceHub.Infrastructure.Services;
 
 public class DateTimeProvider : IDateTimeProvider
 {
