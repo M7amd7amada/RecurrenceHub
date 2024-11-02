@@ -4,9 +4,9 @@ using System.Text;
 
 using Microsoft.IdentityModel.Tokens;
 
-using RecurrenceHub.Application.Common.Interfaces;
+using RecurrenceHub.Application.Common.Interfaces.Authentication;
 
-namespace RecurrenceHub.Infrastructure.Common;
+namespace RecurrenceHub.Infrastructure.Common.Authentication;
 
 public class JwtTokenGenerator : IJwtTokenGenerator
 {

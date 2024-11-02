@@ -1,7 +1,7 @@
 using Microsoft.Extensions.DependencyInjection;
 
-using RecurrenceHub.Application.Common.Interfaces;
-using RecurrenceHub.Infrastructure.Common;
+using RecurrenceHub.Application.Common.Interfaces.Authentication;
+using RecurrenceHub.Infrastructure.Common.Authentication;
 
 namespace RecurrenceHub.Infrastructure;
 
@@ -11,7 +11,7 @@ public static class DI
     {
         ArgumentNullException.ThrowIfNull(services);
 
-        services.AddScoped<IJwtTokenGenerator, JwtTokenGenerator>();
+        services.AddSingleton<IJwtTokenGenerator, JwtTokenGenerator>();
 
         return services;
     }

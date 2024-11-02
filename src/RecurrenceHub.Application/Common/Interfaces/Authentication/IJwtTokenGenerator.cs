@@ -1,4 +1,4 @@
-namespace RecurrenceHub.Application.Common.Interfaces;
+namespace RecurrenceHub.Application.Common.Interfaces.Authentication;
 
 public interface IJwtTokenGenerator
 {
