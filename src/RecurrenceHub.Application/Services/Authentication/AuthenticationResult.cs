@@ -1,7 +1,7 @@
 namespace RecurrenceHub.Application.Services.Authentication;
 
 public record AuthenticationResult(
-    Guid Id,
+    Guid UserId,
     string FirstName,
     string LastName,
     string Email,

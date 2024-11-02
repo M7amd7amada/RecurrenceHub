@@ -4,7 +4,7 @@ using RecurrenceHub.Application.Services.Authentication;
 
 namespace RecurrenceHub.Application;
 
-public static class DependencyInjection
+public static class DI
 {
     public static IServiceCollection AddApplication(this IServiceCollection services)
     {

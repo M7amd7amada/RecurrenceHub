@@ -1,6 +1,6 @@
 namespace RecurrenceHub.Api;
 
-public static class DependencyInjection
+public static class DI
 {
     public static IServiceCollection AddApi(this IServiceCollection services)
     {
