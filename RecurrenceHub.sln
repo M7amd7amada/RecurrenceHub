@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A59D6052-AEFA-4EF9-A48C-F51877DB1C57}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecurrenceHub.Api", "src\RecurrenceHub.Api\RecurrenceHub.Api.csproj", "{6624BC7A-87F0-4820-AFA2-6848ACBDB6B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecurrenceHub.Application", "src\RecurrenceHub.Application\RecurrenceHub.Application.csproj", "{6D5C25B2-91A1-4737-9E41-CBAB234FA64C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecurrenceHub.Domain", "src\RecurrenceHub.Domain\RecurrenceHub.Domain.csproj", "{898C0220-EDDA-402C-909D-1F1F86B577E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecurrenceHub.Infrastructure", "src\RecurrenceHub.Infrastructure\RecurrenceHub.Infrastructure.csproj", "{36E0129A-E4BB-49C5-B759-EB2DA27CF2B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecurrenceHub.Contracts", "src\RecurrenceHub.Contracts\RecurrenceHub.Contracts.csproj", "{4C8FCAFA-DC09-4ECA-9D35-D07ACED8D82C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6624BC7A-87F0-4820-AFA2-6848ACBDB6B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6624BC7A-87F0-4820-AFA2-6848ACBDB6B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6624BC7A-87F0-4820-AFA2-6848ACBDB6B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6624BC7A-87F0-4820-AFA2-6848ACBDB6B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D5C25B2-91A1-4737-9E41-CBAB234FA64C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D5C25B2-91A1-4737-9E41-CBAB234FA64C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D5C25B2-91A1-4737-9E41-CBAB234FA64C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D5C25B2-91A1-4737-9E41-CBAB234FA64C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{898C0220-EDDA-402C-909D-1F1F86B577E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{898C0220-EDDA-402C-909D-1F1F86B577E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{898C0220-EDDA-402C-909D-1F1F86B577E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{898C0220-EDDA-402C-909D-1F1F86B577E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36E0129A-E4BB-49C5-B759-EB2DA27CF2B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36E0129A-E4BB-49C5-B759-EB2DA27CF2B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36E0129A-E4BB-49C5-B759-EB2DA27CF2B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36E0129A-E4BB-49C5-B759-EB2DA27CF2B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C8FCAFA-DC09-4ECA-9D35-D07ACED8D82C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C8FCAFA-DC09-4ECA-9D35-D07ACED8D82C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C8FCAFA-DC09-4ECA-9D35-D07ACED8D82C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C8FCAFA-DC09-4ECA-9D35-D07ACED8D82C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6624BC7A-87F0-4820-AFA2-6848ACBDB6B9} = {A59D6052-AEFA-4EF9-A48C-F51877DB1C57}
+		{6D5C25B2-91A1-4737-9E41-CBAB234FA64C} = {A59D6052-AEFA-4EF9-A48C-F51877DB1C57}
+		{898C0220-EDDA-402C-909D-1F1F86B577E2} = {A59D6052-AEFA-4EF9-A48C-F51877DB1C57}
+		{36E0129A-E4BB-49C5-B759-EB2DA27CF2B6} = {A59D6052-AEFA-4EF9-A48C-F51877DB1C57}
+		{4C8FCAFA-DC09-4ECA-9D35-D07ACED8D82C} = {A59D6052-AEFA-4EF9-A48C-F51877DB1C57}
+	EndGlobalSection
+EndGlobal
