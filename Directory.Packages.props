@@ -5,8 +5,8 @@
   <ItemGroup>
     <!-- ASP.NET -->
     <PackageVersion Include="Microsoft.AspNetCore.OpenApi" Version="8.0.10" />
+    <PackageVersion Include="Scalar.AspNetCore" Version="1.2.29" />
     <PackageVersion Include="Swashbuckle.AspNetCore" Version="6.7.0" />
-
     <!-- Analyzers -->
     <PackageVersion Include="StyleCop.Analyzers" Version="1.1.118" />
     <PackageVersion Include="Microsoft.CodeAnalysis.NetAnalyzers" Version="8.0.0" />
