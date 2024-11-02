@@ -1,4 +1,4 @@
-using RecurrenceHub.Application.Common.Interfaces;
+using RecurrenceHub.Application.Common.Interfaces.Authentication;
 
 namespace RecurrenceHub.Application.Services.Authentication;
 
