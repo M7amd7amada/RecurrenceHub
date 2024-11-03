@@ -8,7 +8,7 @@ public class SubscriptionType(string name, int value)
     public static readonly SubscriptionType Basic = new(nameof(Basic), 0);
     public static readonly SubscriptionType Pro = new(nameof(Pro), 1);
 
-    public int GetMaxDailyReminder => Name switch
+    public int GetMaxDailyReminders => Name switch
     {
         nameof(Basic) => 3,
         nameof(Pro) => int.MaxValue,
