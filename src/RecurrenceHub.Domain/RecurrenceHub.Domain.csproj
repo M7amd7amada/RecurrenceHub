@@ -1,3 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
-
+  <ItemGroup>
+    <PackageReference Include="ErrorOr" />
+    <PackageReference Include="MediatR" />
+  </ItemGroup>
 </Project>
