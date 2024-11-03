@@ -3,5 +3,6 @@
     <PackageReference Include="Ardalis.SmartEnum" />
     <PackageReference Include="ErrorOr" />
     <PackageReference Include="MediatR" />
+    <PackageReference Include="Throw" />
   </ItemGroup>
 </Project>

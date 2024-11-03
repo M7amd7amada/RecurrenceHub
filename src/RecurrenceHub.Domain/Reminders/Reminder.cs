@@ -6,7 +6,7 @@ public class Reminder : Entity
 {
     public Guid UserId { get; }
     public Guid SubscriptionId { get; }
-    public DateTime DateTime { get; }
+    public DateTimeOffset DateTime { get; }
     public DateOnly Date => DateOnly.FromDateTime(DateTime.Date);
     public string Text { get; } = default!;
     public bool IsDismissed { get; private set; }
@@ -14,7 +14,7 @@ public class Reminder : Entity
     public Reminder(
         Guid userId,
         Guid subscriptionId,
-        DateTime dateTime,
+        DateTimeOffset dateTime,
         string text,
         Guid? Id = null) : base(Id ?? Guid.NewGuid())
     {
