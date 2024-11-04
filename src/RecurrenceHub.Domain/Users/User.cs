@@ -23,11 +23,13 @@ public class User : Entity
         string firstName,
         string lastName,
         string email,
+        Subscription subscription,
         Calender? calender = null) : base(id)
     {
         FirstName = firstName;
         LastName = lastName;
         Email = email;
+        Subscription = subscription;
         _calender = calender ?? Calender.Empty();
     }
 
